@@ -1,25 +1,21 @@
 {
-  "name": "rdehnhardt/lumen-maintenance-mode",
+  "name": "viitech/lumen-maintenance-mode",
   "type": "library",
   "description": "Define application maintenance mode.",
   "keywords": ["lumen", "maintenance", "mode"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Renato Dehnhardt",
+      "name": "VII Tech Solutions",
       "email": "renatotkd@gmail.com"
-    },
-    {
-      "name": "Vagner do Carmo",
-      "email": "vluzrmos@gmail.com"
     }
   ],
   "require": {
     "php": ">=5.5.9",
-    "laravel/lumen-framework": "~5.0"
+    "laravel/lumen-framework": "^5.0|^6.0"
   },
   "require-dev": {
-    "laravel/lumen":"~5.0",
+    "laravel/lumen":"^5.0|^6.0",
     "phpunit/phpunit": "~4.0",
     "fzaninotto/faker": "v1.4.0",
     "fabpot/php-cs-fixer": "~1.11"
